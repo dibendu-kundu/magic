@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+
+.commonbtn{
+    color: white;
+    width: 100%;
+    padding: 15px 0px;
+    background-color: blue;
+    border-radius: 25px;
+    border: none;
+    box-shadow: 1px 1px 1px black;
+
+}
+
+.commonbtn1{
+    color: white;
+    width: 100%;
+    padding: 15px 50px;
+    background-color: blue;
+    border-radius: 25px;
+    border: none;
+    box-shadow: 1px 1px 1px black;
+
+}
+.commonbtn:hover{
+    background-color: rgb(10, 10, 212);
+    cursor: pointer;
+    transform: scale(1.02);
+}
+.heading{
+    padding: 20px 0px;
+    color: blue;
+    font-size: 24px;
+    margin-bottom: 10%;
+    font-family: sans-serif;
+    /* border-bottom: 2px solid black; */
+}
+.press{
+    padding: 10px 0px;
+    font-family: sans-serif;
+    color:rgb(202, 194, 194);
+    font-family: sans-serif;
+}
+.outbox{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    margin: auto;
+    width: 100%;
+}
+
+.go{
+    color: white;
+    padding: 10px 15px;
+    background-color: rgb(32, 30, 30);
+    border-radius: 10px;
+    margin-top: 25%;
+
+}
+.dropbox{
+    width: 100%;
+    padding: 10px 100px;
+    font-size: larger;
+    background-color: blueviolet;
+    border-radius: 7px;
+    color: white;
+    /* border-radius: 10px; */
+    margin-bottom: 250px;
+
+}
+
+.sendbox{
+    height: 100vh;
+}
+.box1{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.incoming{
+    padding: 20px 20px;
+    font-size: larger;
+    border-radius: 10px;
+}
+
+.gap{
+    padding: 200px 0px;
+}
+.sec{
+    color: white;
+    text-align: center;
+    font-size: larger;
+    padding: 40px 0px;
+    font-family: sans-serif;
+    opacity: 0.5;
+}
+.sec1{
+    color: white;
+    text-align: center;
+    font-size: larger;
+    font-family: sans-serif;
+    opacity: 0.5;
+    margin-top: 50px;
+}
+@media screen and (max-width:799px){
+
+    .heading{
+        padding: 20px 0px;
+        color: blue;
+        font-size: 24px;
+        margin-bottom: 50%;
+        font-family: sans-serif;
+        /* border-bottom: 2px solid black; */
+    }
+
+}
