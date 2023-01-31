@@ -26,7 +26,7 @@
 </head>
 <body>
     <div class="outbox">
-        <div class="heading">Play With Vivration</div>
+        <div class="heading">Play With Vibration</div>
         <form action="index.php" method="post">
             <div class="press">If you are a sender</div>
             <button name="senderbtn" class="commonbtn">Sender</button>
